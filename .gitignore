@@ -1,0 +1,18 @@
+# Environment / secrets — set these via `heroku config:set` instead
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Temp / runtime data (ephemeral on Heroku anyway)
+temp/
+data/
+
+# Docker (not used on Heroku)
+docker-compose.yaml
